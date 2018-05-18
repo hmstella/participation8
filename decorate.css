@@ -1,0 +1,40 @@
+/*change the background color*/
+body {
+  background-color: Ivory
+}
+
+/* make both h1 and h2 headers have padding of 10px
+   make both headers aligned center */
+.first-header, .second-header {
+  padding: 25px;
+  text-align: center;
+}
+
+/* change the background color of the second-header to skyblue */
+.second-header {
+  background-color: #FFB6C1;
+}
+
+/* position paragraphs center
+   change the text color, and make easy to read */
+#food, #description {
+  text-align: center;
+  color: #4B0082;
+  line-height: 150%;
+}
+
+/* highlight specific words*/
+#highlighted {
+  background-color: yellow
+}
+
+/* change the size of the image */
+.container {
+  width: 300px;
+  height: 330px;
+}
+.container img {
+  width: 100%;
+  height: auto;
+  margin-left: 490px;
+}
